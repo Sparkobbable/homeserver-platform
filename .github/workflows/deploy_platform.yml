@@ -3,7 +3,7 @@ name: Deploy docker compose on the platform
 on:
     push:
         branches: ["master"]
-
+ 
 jobs:
     deploy:
         name: deploy compose
